@@ -58,3 +58,113 @@ body {
     color: #ffd700;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
+
+/*Associação*/
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.modalidades {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.modalidade {
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.modalidade h3 {
+    margin-top: 0;
+}
+
+.modalidade ul {
+    padding: 10px;
+}
+
+.modalidade li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.modalidade li:last-child {
+    border-bottom: none;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+.card form {
+    display: flex;
+    flex-direction: column;
+}
+
+.card label {
+    margin-bottom: 10px;
+}
+
+.card input[type="email"],.card input[type="tel"],.card input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+.card input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.card input[type="submit"] {
+    background-color: #00698f;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card input[type="submit"]:hover {
+    background-color: #00467f;
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .popup button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .popup button:hover {
+    background-color: #3e8e41;
+  }
