@@ -245,24 +245,41 @@ main .container h2 {
     background-color: #ba0c2f;
 }
 
-.popup {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #fff;
+ /*Ídolos*/
+
+ .idolos-main {
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  }
-  
-  .popup button {
-    background-color: #4caf50;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
- 
+    background-image: url('../Imagens/gramado.jpg'); /* Coloque sua imagem de fundo aqui */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.idolos-resumo, .idolo {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.idolos-resumo h2, .idolo h3 {
+    color: #ffd700;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.idolos-resumo p, .idolo p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.idolo img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px 0;
+}
