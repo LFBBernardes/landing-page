@@ -249,7 +249,7 @@ main .container h2 {
 
  .idolos-main {
     padding: 20px;
-    background-image: url('../Imagens/gramado.jpg'); /* Coloque sua imagem de fundo aqui */
+    background-image: url('../Imagens/gramado.jpg'); 
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
